@@ -131,7 +131,7 @@ def get_torque(start_timestamp, end_timestamp):
 
 
 def get_check():
-    return 200, NoContent
+    return 200
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
