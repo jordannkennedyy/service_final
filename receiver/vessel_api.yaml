@@ -1,0 +1,193 @@
+openapi: 3.0.0
+info:
+  title: Vessel API
+  description: This API receives reading events from IOT devices on vessel engines
+  contact:
+    email: jkennedy107@my.bcit.ca
+  version: 1.0.0
+servers:
+- url: /
+tags:
+- name: devices
+  description: Operations available for engine devices
+paths:
+  /readings/fuel:
+    post:
+      tags:
+      - devices
+      summary: Adds a fuel consumption reading to the system
+      description: Adds a fuel consumption reading to the system
+      operationId: app.post_fuel_consumption
+      requestBody:
+        description: Reading item to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/fuel_consumption_reading'
+      responses:
+        "201":
+          description: item created
+        "400":
+          description: "invalid input, object invalid"
+    get:
+      tags:
+      - devices
+      summary: gets fuel consumption reading
+      description: gets fuel consumption reading after a timestamp
+      operationId: app.get_fuel_consumption
+      parameters:
+      - name: start_timestamp
+        in: query
+        description: limits the number of readings returned
+        schema:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+      - name: end_timestamp
+        in: query
+        description: limits the number of readings returned
+        schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Successfully returned a list of fuel events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/fuel_consumption_reading'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+            
+  /readings/torque:
+    post:
+      tags:
+      - devices
+      summary: Adds a torque reading to the system
+      description: Adds a torque reading to the system
+      operationId: app.post_torque
+      requestBody:
+        description: Reading item to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/torque_reading'
+      responses:
+        "201":
+          description: item created
+        "400":
+          description: "invalid input, object invalid"
+    get:
+      tags:
+      - devices
+      summary: gets torque consumption reading
+      description: gets torque consumption reading after a timestamp
+      operationId: app.get_torque
+      parameters:
+      - name: start_timestamp
+        in: query
+        description: limits the number of readings returned
+        schema:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+      - name: end_timestamp
+        in: query
+        description: limits the number of readings returned
+        schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Successfully returned a list of fuel events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/torque_reading'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /check:
+    get:
+      summary: Checks the health of the receiver
+      operationId: app.get_check
+      description: Service is healthy if this service returns a response
+      responses:
+        '200':
+          description: OK
+          
+components:
+  schemas:
+    fuel_consumption_reading:
+      required:
+      - device_id
+      - fuel_consumed
+      - timestamp
+      - vessel_id
+      - trace_id
+      type: object
+      properties:
+        vessel_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        device_id:
+          type: integer
+          example: 1111
+        fuel_consumed:
+          type: integer
+          example: 10000
+        timestamp:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+        trace_id:
+          type: string
+          format: uuid
+          example: 3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7
+    torque_reading:
+      required:
+      - device_id
+      - timestamp
+      - torque
+      - vessel_id
+      - trace_id
+      type: object
+      properties:
+        vessel_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        device_id:
+          type: integer
+          example: 1111
+        torque:
+          type: integer
+          example: 1000000
+        timestamp:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+        trace_id:
+          type: string
+          format: uuid
+          example: 3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7

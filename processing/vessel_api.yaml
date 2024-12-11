@@ -1,0 +1,64 @@
+openapi: 3.0.0
+info:
+  title: Vessel API
+  description: This API receives reading events from IOT devices on vessel engines
+  contact:
+    email: jkennedy107@my.bcit.ca
+  version: 1.0.0
+servers:
+- url: /
+tags:
+- name: devices
+  description: Operations available for engine devices
+paths:
+  /stats:
+    get:
+      tags:
+      - devices
+      summary: Get the event stats
+      operationId: app.get_processing_stats
+      description: get fuel and torque processed statistics
+      responses:
+        '200':
+          description: sucessfully returned fuel and torque stats
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ProcessingStats'
+        '404':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ProcessingStats:
+      required:
+      - num_fuel_readings
+      - avg_fuel_reading
+      - num_torque_readings
+      - avg_torque_reading
+      - last_updated
+      type: object
+      properties:
+        num_fuel_readings:
+          type: integer
+          example: 50000
+        avg_fuel_reading:
+          type: integer
+          example: 100000
+        num_torque_readings:
+          type: integer
+          example: 10000
+        avg_torque_reading:
+          type: integer
+          example: 100000
+        last_updated:
+          type: string
+          example: "2024-10-15T09:24:50Z"

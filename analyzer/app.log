@@ -1,0 +1,44 @@
+2024-10-28 14:34:51,550 - basicLogger - INFO - Retrieving BP at index 0
+2024-10-28 14:34:51,810 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:12:36', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'fuel_consumed': 10000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:35:59,725 - basicLogger - INFO - Retrieving BP at index 0
+2024-10-28 14:35:59,976 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:12:36', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'fuel_consumed': 10000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:40:04,080 - basicLogger - INFO - Retrieving BP at index 0
+2024-10-28 14:40:04,327 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:12:36', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'fuel_consumed': 10000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:40:49,170 - basicLogger - INFO - Retrieving BP at index 0
+2024-10-28 14:40:49,421 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:12:36', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'fuel_consumed': 10000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:40:58,676 - basicLogger - INFO - Retrieving BP at index 0
+2024-10-28 14:40:58,926 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:12:36', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'fuel_consumed': 10000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:42:50,897 - basicLogger - INFO - Retrieving BP at index 0
+2024-10-28 14:42:51,145 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:12:36', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'fuel_consumed': 10000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:42:59,640 - basicLogger - INFO - Retrieving BP at index 15
+2024-10-28 14:42:59,892 - basicLogger - INFO - Found message: {'type': 'torque', 'datetime': '2024-10-28T13:17:45', 'payload': {'vessel_id': '0c8e7a1b-4274-4018-be16-87d9adce9683', 'device_id': 8013, 'torque': 245015, 'timestamp': '2024-10-28T13:17:39.526750-07:00', 'trace_id': 'd799749a-59e0-4afe-b0e2-f17673290460'}}
+2024-10-28 14:43:27,388 - basicLogger - INFO - Retrieving BP at index 3
+2024-10-28 14:43:27,643 - basicLogger - INFO - Found message: {'type': 'torque', 'datetime': '2024-10-28T13:17:39', 'payload': {'vessel_id': '4671f0fe-5747-462a-b32a-7e1a35e3a635', 'device_id': 9259, 'torque': 429975, 'timestamp': '2024-10-28T13:17:39.025277-07:00', 'trace_id': '28fd5bb1-1afd-4659-81e4-d9fad67b4dd5'}}
+2024-10-28 14:43:39,419 - basicLogger - INFO - Retrieving BP at index 1
+2024-10-28 14:43:39,676 - basicLogger - INFO - Found message: {'type': 'torque', 'datetime': '2024-10-28T13:13:07', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'torque': 1000000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:43:44,701 - basicLogger - INFO - Retrieving BP at index 0
+2024-10-28 14:43:44,952 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:12:36', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'fuel_consumed': 10000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:45:27,577 - basicLogger - INFO - Retrieving BP at index 3
+2024-10-28 14:45:27,832 - basicLogger - INFO - Found message: {'type': 'torque', 'datetime': '2024-10-28T13:17:39', 'payload': {'vessel_id': '4671f0fe-5747-462a-b32a-7e1a35e3a635', 'device_id': 9259, 'torque': 429975, 'timestamp': '2024-10-28T13:17:39.025277-07:00', 'trace_id': '28fd5bb1-1afd-4659-81e4-d9fad67b4dd5'}}
+2024-10-28 14:45:34,511 - basicLogger - INFO - Retrieving BP at index 4
+2024-10-28 14:45:34,757 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:17:39', 'payload': {'vessel_id': '1a714d08-fc59-4870-b383-e064d2cb043a', 'device_id': 6843, 'fuel_consumed': 18399, 'timestamp': '2024-10-28T13:17:38.976504-07:00', 'trace_id': '37a05ba4-c175-4ddd-908c-e3e4740171ec'}}
+2024-10-28 14:47:43,696 - basicLogger - INFO - Retrieving fuel at index 2
+2024-10-28 14:47:44,959 - basicLogger - ERROR - Could not find fuel at index 2
+2024-10-28 14:47:58,389 - basicLogger - INFO - Retrieving fuel at index 4
+2024-10-28 14:47:58,885 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:17:39', 'payload': {'vessel_id': '1a714d08-fc59-4870-b383-e064d2cb043a', 'device_id': 6843, 'fuel_consumed': 18399, 'timestamp': '2024-10-28T13:17:38.976504-07:00', 'trace_id': '37a05ba4-c175-4ddd-908c-e3e4740171ec'}}
+2024-10-28 14:48:05,982 - basicLogger - INFO - Retrieving fuel at index 5
+2024-10-28 14:48:07,499 - basicLogger - ERROR - Could not find fuel at index 5
+2024-10-28 14:48:16,014 - basicLogger - INFO - Retrieving fuel at index 6
+2024-10-28 14:48:16,259 - basicLogger - INFO - Found message: {'type': 'fuel', 'datetime': '2024-10-28T13:17:39', 'payload': {'vessel_id': '741db232-22b2-4a85-9f84-20141c3c115e', 'device_id': 2682, 'fuel_consumed': 18710, 'timestamp': '2024-10-28T13:17:39.020769-07:00', 'trace_id': '34eb7d46-0f09-452f-a506-d41bb669058c'}}
+2024-10-28 14:52:01,133 - basicLogger - INFO - Retrieving torque at index 0
+2024-10-28 14:52:02,399 - basicLogger - ERROR - Could not find torque at index 0
+2024-10-28 14:52:07,252 - basicLogger - INFO - Retrieving torque at index 1
+2024-10-28 14:52:07,496 - basicLogger - INFO - Found message: {'type': 'torque', 'datetime': '2024-10-28T13:13:07', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'torque': 1000000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:52:12,500 - basicLogger - INFO - Retrieving torque at index 2
+2024-10-28 14:52:12,749 - basicLogger - INFO - Found message: {'type': 'torque', 'datetime': '2024-10-28T13:14:51', 'payload': {'vessel_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'device_id': 1111, 'torque': 1000000, 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'trace_id': '3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7'}}
+2024-10-28 14:52:17,195 - basicLogger - INFO - Retrieving torque at index 3
+2024-10-28 14:52:17,442 - basicLogger - INFO - Found message: {'type': 'torque', 'datetime': '2024-10-28T13:17:39', 'payload': {'vessel_id': '4671f0fe-5747-462a-b32a-7e1a35e3a635', 'device_id': 9259, 'torque': 429975, 'timestamp': '2024-10-28T13:17:39.025277-07:00', 'trace_id': '28fd5bb1-1afd-4659-81e4-d9fad67b4dd5'}}
+2024-10-28 14:52:21,880 - basicLogger - INFO - Retrieving torque at index 4
+2024-10-28 14:52:23,148 - basicLogger - ERROR - Could not find torque at index 4
+2024-10-28 14:52:28,407 - basicLogger - INFO - Retrieving torque at index 5
+2024-10-28 14:52:28,661 - basicLogger - INFO - Found message: {'type': 'torque', 'datetime': '2024-10-28T13:17:39', 'payload': {'vessel_id': 'b7a97838-0de6-46dd-a360-fefb40eeeb1c', 'device_id': 7801, 'torque': 314750, 'timestamp': '2024-10-28T13:17:38.976650-07:00', 'trace_id': 'd2a60469-47b7-47a4-9259-b8fb37e03011'}}

@@ -1,0 +1,48 @@
+{
+    "num_fuel": 34,
+    "recent_fuel": [
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with fuel consumption of 10000",
+            "received_timestamp": "09/17/2024, 09:35:41"
+        },
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with fuel consumption of 10000",
+            "received_timestamp": "09/17/2024, 09:35:41"
+        },
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with fuel consumption of 10000",
+            "received_timestamp": "09/17/2024, 09:35:41"
+        },
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with fuel consumption of 10000",
+            "received_timestamp": "09/17/2024, 09:35:41"
+        },
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with fuel consumption of 10000",
+            "received_timestamp": "09/17/2024, 09:35:40"
+        }
+    ],
+    "num_torque": 22,
+    "recent_torque": [
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with a torque reading of 1000000",
+            "received_timestamp": "09/17/2024, 09:35:41"
+        },
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with a torque reading of 1000000",
+            "received_timestamp": "09/17/2024, 09:35:41"
+        },
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with a torque reading of 1000000",
+            "received_timestamp": "09/17/2024, 09:35:41"
+        },
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with a torque reading of 1000000",
+            "received_timestamp": "09/17/2024, 09:35:40"
+        },
+        {
+            "msg_data": "Vessel d290f1ee-6c54-4b01-90e6-d701748f0851 with a torque reading of 1000000",
+            "received_timestamp": "09/17/2024, 09:35:40"
+        }
+    ]
+}

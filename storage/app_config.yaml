@@ -1,0 +1,11 @@
+version: 1
+datastore:
+  user: "root"
+  password: "password"
+  hostname: "acit3855-lab06.eastus2.cloudapp.azure.com"
+  port: 3306
+  db: "vessel"
+events:
+  hostname: "acit3855-lab06.eastus2.cloudapp.azure.com"
+  port: 9092
+  topic: events

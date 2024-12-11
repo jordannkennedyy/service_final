@@ -1,0 +1,171 @@
+openapi: 3.0.0
+info:
+  title: Vessel API Analyzer
+  description: This API provides analyzer info
+  contact:
+    email: jkennedy107@my.bcit.ca
+  version: 1.0.0
+servers:
+- url: /
+tags:
+- name: devices
+  description: Operations available for engine devices
+paths:
+  /fuel:
+    get:
+      tags:
+      - devices
+      summary: gets fuel consumption reading from event store
+      description: gets fuel consumption reading from event store
+      operationId: app.get_fuel
+      parameters:
+      - name: index
+        in: query
+        description: gets fuel consumption reading from event store
+        schema:
+          type: integer
+          example: 100
+      responses:
+        '200':
+          description: Successfully returned a fuel event
+          content:
+            application/json:
+              schema:
+                  $ref: '#/components/schemas/fuel'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+            
+  /torque:
+    get:
+      tags:
+      - devices
+      summary: gets torque reading from event store
+      description: gets torque reading from event store
+      operationId: app.get_torque
+      parameters:
+      - name: index
+        in: query
+        description: gets torque reading from event store
+        schema:
+          type: integer
+          example: 100
+      responses:
+        '200':
+          description: Successfully returned a torque event
+          content:
+            application/json:
+              schema:
+                  $ref: '#/components/schemas/torque'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /stats:
+    get:
+      summary: get the event stats
+      operationId: app.get_stats
+      description: get stats from the history events
+      responses:
+        '200':
+          description: Success returned stats
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/stats'
+components:
+  schemas:
+    fuel:
+      required:
+      - device_id
+      - fuel_consumed
+      - timestamp
+      - vessel_id
+      - trace_id
+      type: object
+      properties:
+        vessel_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        device_id:
+          type: integer
+          example: 1111
+        fuel_consumed:
+          type: integer
+          example: 10000
+        timestamp:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+        trace_id:
+          type: string
+          format: uuid
+          example: 3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7
+    torque:
+      required:
+      - device_id
+      - timestamp
+      - torque
+      - vessel_id
+      - trace_id
+      type: object
+      properties:
+        vessel_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        device_id:
+          type: integer
+          example: 1111
+        torque:
+          type: integer
+          example: 1000000
+        timestamp:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+        trace_id:
+          type: string
+          format: uuid
+          example: 3163f08a-ecfd-4de1-a5dc-84b5c1b53ff7
+    stats:
+      required:
+      - fuel_count
+      - torque_count
+      properties:
+        num_fuel:
+          type: integer
+          example: 100
+        num_torque:
+          type: integer
+          example: 100

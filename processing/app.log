@@ -1,0 +1,650 @@
+2024-10-07 21:40:24,338 - basicLogger - INFO - Periodic processing has started
+
+2024-10-07 22:56:38,895 - basicLogger - INFO - Periodic processing has started
+2024-10-07 22:56:38,895 - basicLogger - INFO - loaded
+2024-10-07 22:59:33,203 - basicLogger - INFO - Periodic processing has started
+2024-10-07 22:59:33,204 - basicLogger - INFO - loaded
+2024-10-07 22:59:33,212 - basicLogger - ERROR - Error in the application 400
+2024-10-07 22:59:38,203 - basicLogger - INFO - Periodic processing has started
+2024-10-07 22:59:38,203 - basicLogger - INFO - loaded
+2024-10-07 22:59:38,209 - basicLogger - ERROR - Error in the application 400
+2024-10-07 23:00:03,475 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:00:03,476 - basicLogger - INFO - loaded
+2024-10-07 23:00:03,478 - basicLogger - ERROR - Error in the application 400
+2024-10-07 23:00:36,747 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:00:36,747 - basicLogger - INFO - loaded
+2024-10-07 23:00:36,749 - basicLogger - ERROR - Error in the application 400
+2024-10-07 23:04:17,491 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:04:17,491 - basicLogger - INFO - loaded
+2024-10-07 23:04:17,494 - basicLogger - ERROR - Error in the application 400
+2024-10-07 23:08:11,518 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:08:11,518 - basicLogger - INFO - loaded
+2024-10-07 23:08:11,520 - basicLogger - ERROR - Error in the application 400
+2024-10-07 23:08:39,988 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:08:39,988 - basicLogger - INFO - loaded
+2024-10-07 23:08:39,991 - basicLogger - ERROR - Error in the application 400
+2024-10-07 23:12:11,493 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:12:11,493 - basicLogger - INFO - loaded
+2024-10-07 23:12:11,506 - basicLogger - INFO - number of events received from Fuel process: 104
+2024-10-07 23:12:11,518 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-07 23:13:17,209 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:13:17,210 - basicLogger - INFO - loaded
+2024-10-07 23:13:17,234 - basicLogger - INFO - number of events received from Fuel process: 104
+2024-10-07 23:13:17,246 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-07 23:13:22,209 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:13:27,209 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:13:52,385 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:14:08,763 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:14:08,763 - basicLogger - INFO - loaded
+2024-10-07 23:14:08,775 - basicLogger - INFO - number of events received from Fuel process: 104
+2024-10-07 23:14:08,787 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-07 23:14:56,190 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:15:24,789 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:15:24,789 - basicLogger - INFO - loaded
+2024-10-07 23:15:24,804 - basicLogger - INFO - number of events received from Fuel process: 104
+2024-10-07 23:15:24,817 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-07 23:16:19,732 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:16:19,732 - basicLogger - INFO - loaded
+2024-10-07 23:16:19,745 - basicLogger - INFO - number of events received from Fuel process: 104
+2024-10-07 23:16:19,756 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-07 23:16:19,756 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 104, avg_fuel_reading - 27334.875, num_torque_reading - 100, avg_torque_reading - 298840.69
+2024-10-07 23:16:19,756 - basicLogger - INFO - period processing has ended!
+2024-10-07 23:17:45,226 - basicLogger - INFO - Periodic processing has started
+2024-10-07 23:17:45,226 - basicLogger - INFO - loaded
+2024-10-07 23:17:45,238 - basicLogger - INFO - number of events received from Fuel process: 104
+2024-10-07 23:17:45,250 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-07 23:17:45,250 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 104, avg_fuel_reading - 27334.875, num_torque_reading - 100, avg_torque_reading - 298840.69
+2024-10-07 23:17:45,250 - basicLogger - INFO - period processing has ended!
+2024-10-07 23:44:47,359 - basicLogger - INFO - Get stats request has begun
+2024-10-07 23:44:47,359 - basicLogger - ERROR - file does not exist
+2024-10-07 23:47:32,923 - basicLogger - INFO - Get stats request has begun
+2024-10-07 23:47:32,923 - basicLogger - ERROR - file does not exist
+2024-10-07 23:48:15,288 - basicLogger - INFO - Get stats request has begun
+2024-10-07 23:48:15,288 - basicLogger - ERROR - file does not exist: 'dict' object has no attribute 'json'
+2024-10-07 23:49:00,960 - basicLogger - INFO - Get stats request has begun
+2024-10-07 23:49:00,960 - basicLogger - ERROR - file does not exist: 'num_torque_reading'
+2024-10-07 23:49:19,553 - basicLogger - INFO - Get stats request has begun
+2024-10-07 23:49:19,554 - basicLogger - DEBUG - {'num_fuel_readings': 104, 'avg_fuel_reading': 27334.875, 'num_torque_reading': 100, 'avg_torque_reading': 298840.69}
+2024-10-07 23:49:19,554 - basicLogger - INFO - request completed!
+2024-10-08 00:10:30,510 - basicLogger - INFO - Get stats request has begun
+2024-10-08 00:10:30,510 - basicLogger - DEBUG - {'num_fuel_readings': 104, 'avg_fuel_reading': 27334, 'num_torque_reading': 100, 'avg_torque_reading': 298840}
+2024-10-08 00:10:30,510 - basicLogger - INFO - request completed!
+2024-10-08 09:28:30,329 - basicLogger - INFO - Get stats request has begun
+2024-10-08 09:28:30,339 - basicLogger - DEBUG - {'num_fuel_readings': 104, 'avg_fuel_reading': 27334, 'num_torque_readings': 100, 'avg_torque_reading': 298840}
+2024-10-08 09:28:30,339 - basicLogger - INFO - request completed!
+2024-10-08 09:36:34,507 - basicLogger - INFO - Get stats request has begun
+2024-10-08 09:36:34,507 - basicLogger - DEBUG - {'num_fuel_readings': 104, 'avg_fuel_reading': 27334, 'num_torque_readings': 100, 'avg_torque_reading': 298840}
+2024-10-08 09:36:34,508 - basicLogger - INFO - request completed!
+2024-10-08 09:36:40,551 - basicLogger - INFO - Get stats request has begun
+2024-10-08 09:36:40,552 - basicLogger - DEBUG - {'num_fuel_readings': 104, 'avg_fuel_reading': 27334, 'num_torque_readings': 100, 'avg_torque_reading': 298840}
+2024-10-08 09:36:40,552 - basicLogger - INFO - request completed!
+2024-10-08 09:39:12,955 - basicLogger - INFO - Periodic processing has started
+2024-10-08 09:39:12,957 - basicLogger - INFO - loaded
+2024-10-08 09:39:13,025 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 09:39:13,079 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 09:39:13,083 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 254, avg_fuel_reading - 29056.546666666665, num_torque_reading - 250, avg_torque_reading - 290519.69333333336
+2024-10-08 09:39:13,083 - basicLogger - INFO - period processing has ended!
+2024-10-08 09:39:17,953 - basicLogger - INFO - Periodic processing has started
+2024-10-08 09:39:17,954 - basicLogger - INFO - loaded
+2024-10-08 09:39:17,971 - basicLogger - ERROR - Error in the application 404
+2024-10-08 09:39:22,954 - basicLogger - INFO - Periodic processing has started
+2024-10-08 09:39:22,954 - basicLogger - INFO - loaded
+2024-10-08 09:39:22,974 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:06,247 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:06,248 - basicLogger - INFO - loaded
+2024-10-08 10:32:06,271 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:11,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:11,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:11,266 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:14,065 - basicLogger - INFO - Get stats request has begun
+2024-10-08 10:32:14,066 - basicLogger - DEBUG - {'num_fuel_readings': 254, 'avg_fuel_reading': 29056, 'num_torque_readings': 250, 'avg_torque_reading': 290519}
+2024-10-08 10:32:14,076 - basicLogger - INFO - request completed!
+2024-10-08 10:32:16,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:16,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:16,264 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:21,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:21,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:21,264 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:26,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:26,246 - basicLogger - INFO - loaded
+2024-10-08 10:32:26,263 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:31,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:31,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:31,268 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:36,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:36,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:36,265 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:41,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:41,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:41,265 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:46,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:46,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:46,262 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:51,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:51,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:51,262 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:32:56,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:32:56,247 - basicLogger - INFO - loaded
+2024-10-08 10:32:56,266 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:01,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:01,247 - basicLogger - INFO - loaded
+2024-10-08 10:33:01,263 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:06,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:06,247 - basicLogger - INFO - loaded
+2024-10-08 10:33:06,259 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:11,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:11,247 - basicLogger - INFO - loaded
+2024-10-08 10:33:11,266 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:16,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:16,247 - basicLogger - INFO - loaded
+2024-10-08 10:33:16,264 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:21,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:21,247 - basicLogger - INFO - loaded
+2024-10-08 10:33:21,268 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:26,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:26,246 - basicLogger - INFO - loaded
+2024-10-08 10:33:26,267 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:28,552 - basicLogger - INFO - Get stats request has begun
+2024-10-08 10:33:28,553 - basicLogger - DEBUG - {'num_fuel_readings': 254, 'avg_fuel_reading': 29056, 'num_torque_readings': 250, 'avg_torque_reading': 290519}
+2024-10-08 10:33:28,553 - basicLogger - INFO - request completed!
+2024-10-08 10:33:31,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:31,247 - basicLogger - INFO - loaded
+2024-10-08 10:33:31,265 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:36,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:36,246 - basicLogger - INFO - loaded
+2024-10-08 10:33:36,263 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:41,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:41,246 - basicLogger - INFO - loaded
+2024-10-08 10:33:41,262 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:46,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:46,247 - basicLogger - INFO - loaded
+2024-10-08 10:33:46,267 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:51,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:51,246 - basicLogger - INFO - loaded
+2024-10-08 10:33:51,262 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:33:56,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:33:56,247 - basicLogger - INFO - loaded
+2024-10-08 10:33:56,263 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:01,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:01,247 - basicLogger - INFO - loaded
+2024-10-08 10:34:01,262 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:06,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:06,247 - basicLogger - INFO - loaded
+2024-10-08 10:34:06,264 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:11,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:11,247 - basicLogger - INFO - loaded
+2024-10-08 10:34:11,262 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:16,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:16,247 - basicLogger - INFO - loaded
+2024-10-08 10:34:16,266 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:21,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:21,247 - basicLogger - INFO - loaded
+2024-10-08 10:34:21,265 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:26,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:26,247 - basicLogger - INFO - loaded
+2024-10-08 10:34:26,262 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:31,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:31,246 - basicLogger - INFO - loaded
+2024-10-08 10:34:31,266 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:36,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:36,247 - basicLogger - INFO - loaded
+2024-10-08 10:34:36,268 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:41,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:41,246 - basicLogger - INFO - loaded
+2024-10-08 10:34:41,263 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:34:46,246 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:34:46,247 - basicLogger - INFO - loaded
+2024-10-08 10:34:46,265 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:35:39,250 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:35:39,251 - basicLogger - INFO - loaded
+2024-10-08 10:35:39,265 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:38:30,926 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:38:30,926 - basicLogger - INFO - loaded
+2024-10-08 10:38:30,939 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:38:50,302 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:38:50,302 - basicLogger - INFO - loaded
+2024-10-08 10:38:50,355 - basicLogger - INFO - number of events received from Fuel process: 254
+2024-10-08 10:38:50,425 - basicLogger - INFO - number of events received from Fuel process: 300
+2024-10-08 10:38:50,428 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 508, avg_fuel_reading - 28351.610236220473, num_torque_reading - 550, avg_torque_reading - 290092.32
+2024-10-08 10:38:50,428 - basicLogger - INFO - period processing has ended!
+2024-10-08 10:39:33,181 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:39:33,182 - basicLogger - INFO - loaded
+2024-10-08 10:39:33,247 - basicLogger - INFO - number of events received from Fuel process: 254
+2024-10-08 10:39:33,323 - basicLogger - INFO - number of events received from Fuel process: 300
+2024-10-08 10:39:33,326 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 762, avg_fuel_reading - 28351.610236220473, num_torque_reading - 850, avg_torque_reading - 290092.32
+2024-10-08 10:39:33,326 - basicLogger - INFO - period processing has ended!
+2024-10-08 10:39:38,180 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:39:38,180 - basicLogger - INFO - loaded
+2024-10-08 10:39:38,220 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:39:43,180 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:39:43,180 - basicLogger - INFO - loaded
+2024-10-08 10:39:43,197 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:39:48,180 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:39:48,180 - basicLogger - INFO - loaded
+2024-10-08 10:39:48,197 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:39:53,180 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:39:53,180 - basicLogger - INFO - loaded
+2024-10-08 10:39:53,199 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:39:58,180 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:39:58,181 - basicLogger - INFO - loaded
+2024-10-08 10:39:58,198 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:41:12,789 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:41:12,790 - basicLogger - INFO - loaded
+2024-10-08 10:41:12,811 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:41:17,788 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:41:17,789 - basicLogger - INFO - loaded
+2024-10-08 10:41:17,807 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:48:07,837 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:48:07,838 - basicLogger - INFO - loaded
+2024-10-08 10:48:07,914 - basicLogger - INFO - number of events received from Fuel process: 254
+2024-10-08 10:48:07,998 - basicLogger - INFO - number of events received from Fuel process: 300
+2024-10-08 10:48:08,001 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 1016, avg_fuel_reading - 28351.610236220473, num_torque_reading - 1150, avg_torque_reading - 290092.32
+2024-10-08 10:48:08,002 - basicLogger - INFO - period processing has ended!
+2024-10-08 10:48:12,837 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:48:12,837 - basicLogger - INFO - loaded
+2024-10-08 10:48:12,856 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:49:11,981 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:49:11,982 - basicLogger - INFO - loaded
+2024-10-08 10:49:12,000 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:49:16,981 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:49:16,981 - basicLogger - INFO - loaded
+2024-10-08 10:49:17,000 - basicLogger - ERROR - Error in the application 404
+2024-10-08 10:57:51,228 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:57:51,229 - basicLogger - INFO - loaded
+2024-10-08 10:57:51,239 - basicLogger - ERROR - Error in the application 400
+2024-10-08 10:57:56,227 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:57:56,227 - basicLogger - INFO - loaded
+2024-10-08 10:57:56,233 - basicLogger - ERROR - Error in the application 400
+2024-10-08 10:58:01,227 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:58:01,227 - basicLogger - INFO - loaded
+2024-10-08 10:58:01,233 - basicLogger - ERROR - Error in the application 400
+2024-10-08 10:58:06,227 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:58:06,228 - basicLogger - INFO - loaded
+2024-10-08 10:58:06,233 - basicLogger - ERROR - Error in the application 400
+2024-10-08 10:58:11,227 - basicLogger - INFO - Periodic processing has started
+2024-10-08 10:58:11,227 - basicLogger - INFO - loaded
+2024-10-08 10:58:11,233 - basicLogger - ERROR - Error in the application 400
+2024-10-08 11:01:09,778 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:01:09,779 - basicLogger - INFO - loaded
+2024-10-08 11:01:09,789 - basicLogger - ERROR - Error in the application 400
+2024-10-08 11:01:14,777 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:01:14,778 - basicLogger - INFO - loaded
+2024-10-08 11:01:14,784 - basicLogger - ERROR - Error in the application 400
+2024-10-08 11:02:27,705 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:02:27,706 - basicLogger - INFO - loaded
+2024-10-08 11:02:32,704 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:02:32,705 - basicLogger - INFO - loaded
+2024-10-08 11:02:51,731 - basicLogger - INFO - Get stats request has begun
+2024-10-08 11:02:51,731 - basicLogger - DEBUG - {'num_fuel_readings': 1016, 'avg_fuel_reading': 28351, 'num_torque_readings': 1150, 'avg_torque_reading': 290092}
+2024-10-08 11:02:51,731 - basicLogger - INFO - request completed!
+2024-10-08 11:03:19,165 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:03:19,166 - basicLogger - INFO - loaded
+2024-10-08 11:04:38,032 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:04:38,032 - basicLogger - INFO - loaded
+2024-10-08 11:04:38,046 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:05:18,695 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:05:18,696 - basicLogger - INFO - loaded
+2024-10-08 11:05:18,718 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:05:23,693 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:05:23,694 - basicLogger - INFO - loaded
+2024-10-08 11:05:23,712 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:06:32,972 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:06:32,973 - basicLogger - INFO - loaded
+2024-10-08 11:06:32,994 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:06:37,971 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:06:37,972 - basicLogger - INFO - loaded
+2024-10-08 11:06:37,991 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:06:58,409 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:06:58,409 - basicLogger - INFO - loaded
+2024-10-08 11:06:58,422 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:08:51,292 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:08:51,292 - basicLogger - INFO - loaded
+2024-10-08 11:08:51,332 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:08:51,372 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:08:51,374 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 1166, avg_fuel_reading - 29056.546666666665, num_torque_reading - 1300, avg_torque_reading - 290519.69333333336
+2024-10-08 11:08:51,374 - basicLogger - INFO - period processing has ended!
+2024-10-08 11:09:41,959 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:09:41,961 - basicLogger - INFO - loaded
+2024-10-08 11:09:42,008 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:09:42,048 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:09:42,050 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 1316, avg_fuel_reading - 29056.546666666665, num_torque_reading - 1450, avg_torque_reading - 290519.69333333336
+2024-10-08 11:09:42,050 - basicLogger - INFO - period processing has ended!
+2024-10-08 11:09:46,959 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:09:46,960 - basicLogger - INFO - loaded
+2024-10-08 11:09:46,977 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:11:05,963 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:11:05,964 - basicLogger - INFO - loaded
+2024-10-08 11:11:05,986 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:11:10,962 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:11:10,963 - basicLogger - INFO - loaded
+2024-10-08 11:11:10,982 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:11:29,985 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:11:29,986 - basicLogger - INFO - loaded
+2024-10-08 11:11:30,032 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:11:30,079 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:11:30,081 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 1466, avg_fuel_reading - 29056.546666666665, num_torque_reading - 1600, avg_torque_reading - 290519.69333333336
+2024-10-08 11:11:30,081 - basicLogger - INFO - period processing has ended!
+2024-10-08 11:11:34,984 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:11:34,985 - basicLogger - INFO - loaded
+2024-10-08 11:11:35,003 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:12:58,013 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:12:58,014 - basicLogger - INFO - loaded
+2024-10-08 11:12:58,137 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:12:58,242 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:12:58,244 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 1616, avg_fuel_reading - 29056.546666666665, num_torque_reading - 1750, avg_torque_reading - 290519.69333333336
+2024-10-08 11:12:58,244 - basicLogger - INFO - period processing has ended!
+2024-10-08 11:13:00,013 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:00,014 - basicLogger - INFO - loaded
+2024-10-08 11:13:00,094 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:02,012 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:02,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:02,043 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:04,012 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:04,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:04,078 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:06,013 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:06,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:06,093 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:08,013 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:08,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:08,036 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:10,012 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:10,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:10,041 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:12,012 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:12,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:12,065 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:14,012 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:14,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:14,078 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:16,012 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:16,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:16,073 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:13:18,012 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:13:18,013 - basicLogger - INFO - loaded
+2024-10-08 11:13:18,034 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:18:43,522 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:18:43,523 - basicLogger - INFO - loaded
+2024-10-08 11:18:43,571 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:18:43,613 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:18:43,615 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 1766, avg_fuel_reading - 29056.546666666665, num_torque_reading - 1900, avg_torque_reading - 290519.69333333336
+2024-10-08 11:18:43,615 - basicLogger - INFO - period processing has ended!
+2024-10-08 11:18:45,521 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:18:45,522 - basicLogger - INFO - loaded
+2024-10-08 11:18:45,543 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:19:59,617 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:19:59,619 - basicLogger - INFO - loaded
+2024-10-08 11:19:59,669 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:19:59,715 - basicLogger - INFO - number of events received from Fuel process: 150
+2024-10-08 11:19:59,717 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 1916, avg_fuel_reading - 29056.546666666665, num_torque_reading - 2050, avg_torque_reading - 290519.69333333336
+2024-10-08 11:19:59,718 - basicLogger - INFO - period processing has ended!
+2024-10-08 11:20:04,616 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:20:04,617 - basicLogger - INFO - loaded
+2024-10-08 11:20:04,636 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:20:09,616 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:20:09,616 - basicLogger - INFO - loaded
+2024-10-08 11:20:09,641 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:25:53,126 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:25:53,127 - basicLogger - INFO - loaded
+2024-10-08 11:25:53,147 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:25:58,125 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:25:58,126 - basicLogger - INFO - loaded
+2024-10-08 11:25:58,143 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:27:07,464 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:27:07,465 - basicLogger - INFO - loaded
+2024-10-08 11:27:07,487 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:27:12,464 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:27:12,465 - basicLogger - INFO - loaded
+2024-10-08 11:27:12,481 - basicLogger - ERROR - Error in the application 404
+2024-10-08 11:30:29,707 - basicLogger - INFO - Periodic processing has started
+2024-10-08 11:30:29,708 - basicLogger - INFO - loaded
+2024-10-08 11:30:29,729 - basicLogger - ERROR - Error in the application 404
+2024-10-09 13:13:28,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:13:28,458 - basicLogger - INFO - loaded
+2024-10-09 13:13:28,547 - basicLogger - INFO - number of events received from Fuel process: 700
+2024-10-09 13:13:28,587 - basicLogger - INFO - number of events received from Fuel process: 700
+2024-10-09 13:13:28,589 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 2616, avg_fuel_reading - 29760.02142857143, num_torque_reading - 2750, avg_torque_reading - 300213.8214285714
+2024-10-09 13:13:28,589 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:13:33,447 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:13:33,447 - basicLogger - INFO - loaded
+2024-10-09 13:13:33,454 - basicLogger - ERROR - Error in the application 404
+2024-10-09 13:13:38,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:13:38,448 - basicLogger - INFO - loaded
+2024-10-09 13:13:38,473 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:38,487 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:38,488 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 2716, avg_fuel_reading - 29386.68, num_torque_reading - 2850, avg_torque_reading - 280086.07
+2024-10-09 13:13:38,488 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:13:43,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:13:43,448 - basicLogger - INFO - loaded
+2024-10-09 13:13:43,467 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:43,482 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:43,483 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 2816, avg_fuel_reading - 29615.01, num_torque_reading - 2950, avg_torque_reading - 292562.62
+2024-10-09 13:13:43,483 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:13:48,447 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:13:48,447 - basicLogger - INFO - loaded
+2024-10-09 13:13:48,464 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:48,481 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:48,481 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 2916, avg_fuel_reading - 28361.43, num_torque_reading - 3050, avg_torque_reading - 319461.69
+2024-10-09 13:13:48,481 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:13:53,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:13:53,448 - basicLogger - INFO - loaded
+2024-10-09 13:13:53,473 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:53,484 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:53,485 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3016, avg_fuel_reading - 28774.86, num_torque_reading - 3150, avg_torque_reading - 308641.74
+2024-10-09 13:13:53,485 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:13:58,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:13:58,448 - basicLogger - INFO - loaded
+2024-10-09 13:13:58,476 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:58,495 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:13:58,496 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3116, avg_fuel_reading - 29971.27, num_torque_reading - 3250, avg_torque_reading - 296138.16
+2024-10-09 13:13:58,496 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:14:03,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:14:03,448 - basicLogger - INFO - loaded
+2024-10-09 13:14:03,471 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:14:03,486 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:14:03,486 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3216, avg_fuel_reading - 29660.1, num_torque_reading - 3350, avg_torque_reading - 298741.62
+2024-10-09 13:14:03,487 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:14:08,447 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:14:08,448 - basicLogger - INFO - loaded
+2024-10-09 13:14:08,473 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:14:08,488 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:14:08,489 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3316, avg_fuel_reading - 30161.63, num_torque_reading - 3450, avg_torque_reading - 315646.82
+2024-10-09 13:14:08,489 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:14:13,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:14:13,448 - basicLogger - INFO - loaded
+2024-10-09 13:14:13,476 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:14:13,497 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-09 13:14:13,498 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3416, avg_fuel_reading - 28918.19, num_torque_reading - 3550, avg_torque_reading - 285920.58
+2024-10-09 13:14:13,498 - basicLogger - INFO - period processing has ended!
+2024-10-09 13:14:18,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:14:18,448 - basicLogger - INFO - loaded
+2024-10-09 13:14:18,462 - basicLogger - ERROR - Error in the application 404
+2024-10-09 13:14:23,448 - basicLogger - INFO - Periodic processing has started
+2024-10-09 13:14:23,448 - basicLogger - INFO - loaded
+2024-10-09 13:14:23,463 - basicLogger - ERROR - Error in the application 404
+2024-10-13 12:10:29,470 - basicLogger - INFO - Periodic processing has started
+2024-10-13 12:10:29,479 - basicLogger - INFO - loaded
+2024-10-13 12:10:29,821 - basicLogger - INFO - number of events received from Fuel process: 119
+2024-10-13 12:10:30,201 - basicLogger - INFO - number of events received from Fuel process: 117
+2024-10-13 12:10:30,202 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3535, avg_fuel_reading - 30382.2268907563, num_torque_reading - 3667, avg_torque_reading - 297899.07692307694
+2024-10-13 12:10:30,202 - basicLogger - INFO - period processing has ended!
+2024-10-13 12:10:34,470 - basicLogger - INFO - Periodic processing has started
+2024-10-13 12:10:34,471 - basicLogger - INFO - loaded
+2024-10-13 12:10:34,746 - basicLogger - INFO - number of events received from Fuel process: 81
+2024-10-13 12:10:35,010 - basicLogger - INFO - number of events received from Fuel process: 83
+2024-10-13 12:10:35,011 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3616, avg_fuel_reading - 31890.777777777777, num_torque_reading - 3750, avg_torque_reading - 308339.6144578313
+2024-10-13 12:10:35,012 - basicLogger - INFO - period processing has ended!
+2024-10-13 12:10:39,470 - basicLogger - INFO - Periodic processing has started
+2024-10-13 12:10:39,470 - basicLogger - INFO - loaded
+2024-10-13 12:10:39,719 - basicLogger - INFO - number of events received from Fuel process: 32
+2024-10-13 12:10:39,969 - basicLogger - INFO - number of events received from Fuel process: 32
+2024-10-13 12:10:39,970 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3648, avg_fuel_reading - 30308, num_torque_reading - 3782, avg_torque_reading - 312275.8125
+2024-10-13 12:10:39,970 - basicLogger - INFO - period processing has ended!
+2024-10-13 12:10:44,470 - basicLogger - INFO - Periodic processing has started
+2024-10-13 12:10:44,470 - basicLogger - INFO - loaded
+2024-10-13 12:10:44,766 - basicLogger - INFO - number of events received from Fuel process: 68
+2024-10-13 12:10:45,023 - basicLogger - INFO - number of events received from Fuel process: 68
+2024-10-13 12:10:45,024 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3716, avg_fuel_reading - 30876.191176470587, num_torque_reading - 3850, avg_torque_reading - 305234.45588235295
+2024-10-13 12:10:45,024 - basicLogger - INFO - period processing has ended!
+2024-10-13 12:10:49,470 - basicLogger - INFO - Periodic processing has started
+2024-10-13 12:10:49,470 - basicLogger - INFO - loaded
+2024-10-13 12:10:49,809 - basicLogger - INFO - number of events received from Fuel process: 80
+2024-10-13 12:10:50,064 - basicLogger - INFO - number of events received from Fuel process: 80
+2024-10-13 12:10:50,065 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3796, avg_fuel_reading - 28837.95, num_torque_reading - 3930, avg_torque_reading - 306793.85
+2024-10-13 12:10:50,065 - basicLogger - INFO - period processing has ended!
+2024-10-13 12:10:54,470 - basicLogger - INFO - Periodic processing has started
+2024-10-13 12:10:54,470 - basicLogger - INFO - loaded
+2024-10-13 12:10:54,730 - basicLogger - INFO - number of events received from Fuel process: 20
+2024-10-13 12:10:54,990 - basicLogger - INFO - number of events received from Fuel process: 20
+2024-10-13 12:10:54,991 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 3816, avg_fuel_reading - 31111.15, num_torque_reading - 3950, avg_torque_reading - 306300
+2024-10-13 12:10:54,991 - basicLogger - INFO - period processing has ended!
+2024-10-15 08:52:47,550 - basicLogger - INFO - Periodic processing has started
+2024-10-15 08:52:47,560 - basicLogger - INFO - loaded
+2024-10-15 08:53:01,502 - basicLogger - ERROR - Error in the application 500
+2024-10-15 08:53:02,549 - basicLogger - INFO - Periodic processing has started
+2024-10-15 08:53:02,550 - basicLogger - INFO - loaded
+2024-10-15 08:53:21,577 - basicLogger - ERROR - Error in the application 500
+2024-10-15 08:53:22,550 - basicLogger - INFO - Periodic processing has started
+2024-10-15 08:53:22,550 - basicLogger - INFO - loaded
+2024-10-15 08:53:41,629 - basicLogger - ERROR - Error in the application 500
+2024-10-15 08:59:41,597 - basicLogger - INFO - Periodic processing has started
+2024-10-15 08:59:41,598 - basicLogger - INFO - loaded
+2024-10-15 09:00:00,772 - basicLogger - ERROR - Error in the application 500
+2024-10-15 09:00:01,597 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:00:01,598 - basicLogger - INFO - loaded
+2024-10-15 09:00:20,850 - basicLogger - ERROR - Error in the application 500
+2024-10-15 09:11:34,049 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:11:34,050 - basicLogger - INFO - loaded
+2024-10-15 09:11:34,587 - basicLogger - INFO - number of events received from Fuel process: 200
+2024-10-15 09:11:34,897 - basicLogger - INFO - number of events received from Fuel process: 200
+2024-10-15 09:11:34,897 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4016, avg_fuel_reading - 31202.36, num_torque_reading - 4150, avg_torque_reading - 314495.175
+2024-10-15 09:11:34,897 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:11:39,049 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:11:39,050 - basicLogger - INFO - loaded
+2024-10-15 09:11:39,272 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:11:44,049 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:11:44,049 - basicLogger - INFO - loaded
+2024-10-15 09:11:44,271 - basicLogger - INFO - number of events received from Fuel process: 27
+2024-10-15 09:11:44,514 - basicLogger - INFO - number of events received from Fuel process: 24
+2024-10-15 09:11:44,514 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4043, avg_fuel_reading - 30089.962962962964, num_torque_reading - 4174, avg_torque_reading - 332032.6666666667
+2024-10-15 09:11:44,514 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:11:49,049 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:11:49,049 - basicLogger - INFO - loaded
+2024-10-15 09:11:49,319 - basicLogger - INFO - number of events received from Fuel process: 77
+2024-10-15 09:11:49,557 - basicLogger - INFO - number of events received from Fuel process: 80
+2024-10-15 09:11:49,558 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4120, avg_fuel_reading - 31679.233766233767, num_torque_reading - 4254, avg_torque_reading - 294721.4625
+2024-10-15 09:11:49,558 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:11:54,049 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:11:54,049 - basicLogger - INFO - loaded
+2024-10-15 09:11:54,379 - basicLogger - INFO - number of events received from Fuel process: 95
+2024-10-15 09:11:54,682 - basicLogger - INFO - number of events received from Fuel process: 96
+2024-10-15 09:11:54,682 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4215, avg_fuel_reading - 28938.957894736843, num_torque_reading - 4350, avg_torque_reading - 296591.84375
+2024-10-15 09:11:54,683 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:11:59,049 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:11:59,049 - basicLogger - INFO - loaded
+2024-10-15 09:11:59,276 - basicLogger - INFO - number of events received from Fuel process: 1
+2024-10-15 09:11:59,496 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:12:41,894 - basicLogger - INFO - Get stats request has begun
+2024-10-15 09:12:41,895 - basicLogger - DEBUG - {'num_fuel_readings': 4215, 'avg_fuel_reading': 28938, 'num_torque_readings': 4350, 'avg_torque_reading': 296591}
+2024-10-15 09:12:41,895 - basicLogger - INFO - request completed!
+2024-10-15 09:12:44,084 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:12:44,085 - basicLogger - INFO - loaded
+2024-10-15 09:12:44,325 - basicLogger - INFO - number of events received from Fuel process: 1
+2024-10-15 09:12:44,557 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:12:49,083 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:12:49,083 - basicLogger - INFO - loaded
+2024-10-15 09:12:49,310 - basicLogger - INFO - number of events received from Fuel process: 1
+2024-10-15 09:12:49,530 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:12:54,083 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:12:54,084 - basicLogger - INFO - loaded
+2024-10-15 09:12:54,315 - basicLogger - INFO - number of events received from Fuel process: 1
+2024-10-15 09:12:54,590 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:12:59,083 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:12:59,083 - basicLogger - INFO - loaded
+2024-10-15 09:12:59,307 - basicLogger - INFO - number of events received from Fuel process: 1
+2024-10-15 09:12:59,529 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:13:04,083 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:13:04,083 - basicLogger - INFO - loaded
+2024-10-15 09:13:04,307 - basicLogger - INFO - number of events received from Fuel process: 1
+2024-10-15 09:13:04,526 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:23:24,780 - basicLogger - INFO - Get stats request has begun
+2024-10-15 09:23:24,781 - basicLogger - DEBUG - {'num_fuel_readings': 4215, 'avg_fuel_reading': 28938, 'num_torque_readings': 4350, 'avg_torque_reading': 296591}
+2024-10-15 09:23:24,781 - basicLogger - INFO - request completed!
+2024-10-15 09:23:25,641 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:23:25,642 - basicLogger - INFO - loaded
+2024-10-15 09:23:25,966 - basicLogger - INFO - number of events received from Fuel process: 101
+2024-10-15 09:23:26,275 - basicLogger - INFO - number of events received from Fuel process: 100
+2024-10-15 09:23:26,276 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4316, avg_fuel_reading - 30850.50495049505, num_torque_reading - 4450, avg_torque_reading - 291111.75
+2024-10-15 09:23:26,276 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:23:30,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:23:30,641 - basicLogger - INFO - loaded
+2024-10-15 09:23:31,207 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:23:35,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:23:35,640 - basicLogger - INFO - loaded
+2024-10-15 09:23:36,150 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:23:40,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:23:40,640 - basicLogger - INFO - loaded
+2024-10-15 09:23:40,884 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:23:45,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:23:45,640 - basicLogger - INFO - loaded
+2024-10-15 09:23:45,939 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:23:50,639 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:23:50,640 - basicLogger - INFO - loaded
+2024-10-15 09:23:50,866 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:23:55,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:23:55,640 - basicLogger - INFO - loaded
+2024-10-15 09:23:55,868 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:24:00,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:00,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:00,867 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:24:01,291 - basicLogger - INFO - Get stats request has begun
+2024-10-15 09:24:01,291 - basicLogger - DEBUG - {'num_fuel_readings': 4316, 'avg_fuel_reading': 30850, 'num_torque_readings': 4450, 'avg_torque_reading': 291111}
+2024-10-15 09:24:01,292 - basicLogger - INFO - request completed!
+2024-10-15 09:24:05,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:05,641 - basicLogger - INFO - loaded
+2024-10-15 09:24:05,866 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:24:10,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:10,641 - basicLogger - INFO - loaded
+2024-10-15 09:24:10,877 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:24:15,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:15,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:15,879 - basicLogger - INFO - number of events received from Fuel process: 46
+2024-10-15 09:24:16,181 - basicLogger - INFO - number of events received from Fuel process: 44
+2024-10-15 09:24:16,182 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4362, avg_fuel_reading - 30316.543478260868, num_torque_reading - 4494, avg_torque_reading - 340379.7727272727
+2024-10-15 09:24:16,183 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:24:20,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:20,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:20,876 - basicLogger - INFO - number of events received from Fuel process: 54
+2024-10-15 09:24:21,109 - basicLogger - INFO - number of events received from Fuel process: 56
+2024-10-15 09:24:21,110 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4416, avg_fuel_reading - 31201.64814814815, num_torque_reading - 4550, avg_torque_reading - 293284.21428571426
+2024-10-15 09:24:21,110 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:24:25,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:25,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:25,940 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:24:29,962 - basicLogger - INFO - Get stats request has begun
+2024-10-15 09:24:29,963 - basicLogger - DEBUG - {'num_fuel_readings': 4416, 'avg_fuel_reading': 31201, 'num_torque_readings': 4550, 'avg_torque_reading': 293284}
+2024-10-15 09:24:29,963 - basicLogger - INFO - request completed!
+2024-10-15 09:24:30,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:30,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:30,904 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:24:35,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:35,641 - basicLogger - INFO - loaded
+2024-10-15 09:24:35,871 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:24:40,639 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:40,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:40,880 - basicLogger - ERROR - Error in the application 404
+2024-10-15 09:24:45,639 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:45,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:45,959 - basicLogger - INFO - number of events received from Fuel process: 88
+2024-10-15 09:24:46,198 - basicLogger - INFO - number of events received from Fuel process: 85
+2024-10-15 09:24:46,200 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4504, avg_fuel_reading - 26588.159090909092, num_torque_reading - 4635, avg_torque_reading - 311038.77647058823
+2024-10-15 09:24:46,200 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:24:50,639 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:50,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:50,877 - basicLogger - INFO - number of events received from Fuel process: 12
+2024-10-15 09:24:51,106 - basicLogger - INFO - number of events received from Fuel process: 15
+2024-10-15 09:24:51,107 - basicLogger - DEBUG - Current Stats: num_fuel_readings - 4516, avg_fuel_reading - 33292.416666666664, num_torque_reading - 4650, avg_torque_reading - 284955.4
+2024-10-15 09:24:51,107 - basicLogger - INFO - period processing has ended!
+2024-10-15 09:24:55,640 - basicLogger - INFO - Periodic processing has started
+2024-10-15 09:24:55,640 - basicLogger - INFO - loaded
+2024-10-15 09:24:55,864 - basicLogger - ERROR - Error in the application 404

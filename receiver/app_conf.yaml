@@ -1,0 +1,9 @@
+version: 1
+eventstore1: 
+  url: "http://localhost:8090/readings/fuel"
+eventstore2:
+  url: "http://localhost:8090/readings/torque"
+events:
+  hostname: "acit3855-lab06.eastus2.cloudapp.azure.com"
+  port: 9092
+  topic: events

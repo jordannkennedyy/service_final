@@ -1,0 +1,19 @@
+version: 1
+eventstore1: 
+  url: "http://localhost:8090/stats"
+eventstore2:
+  url: "http://localhost:8080/check"
+eventstore3:
+  url: "http://localhost:8100/stats"
+eventstore4:
+  url: "http://localhost:8110/stats"
+scheduler:
+  period_sec: 2
+scheduler2:
+  period_sec: 10
+datastore:
+  filename: status.json
+events:
+  hostname: "acit3855-lab06.eastus2.cloudapp.azure.com"
+  port: 9092
+  topic: events
